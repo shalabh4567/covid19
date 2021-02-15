@@ -1,0 +1,70 @@
+
+.navbar-dark {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    }
+.nav a{
+
+   font-size: 1.8em;
+   }
+.nav li a{
+   padding-right:5px;
+  }
+.carousel-item{
+    height: 300px;
+}
+.fa-bars{
+    color: black;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .carousel-indicators .active{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+  .carousel-text{
+      text-align: left;
+      padding-bottom: 50px;
+      border-bottom: 1px ridge;
+  }
+  .row-content{
+      padding: 25px;
+      border-bottom: 1px ridge;
+      border-color:rgb(209, 205, 202);
+  }
+ .row-dos img{
+      height: 60px;
+ }
+ .media{
+     padding-top: 35px;
+ }
+ .accordion1 h4{
+     padding-left: 10px;
+
+     color: black
+ }
+ .card-header{
+     background-color: rgb(100, 98, 98);
+ }
+ 
+ .displayCard{
+     margin-top: 8%;
+     margin-bottom: 8%;
+ }
+ .displayCard .inner{
+    overflow: hidden;
+ }
+ .displayCard .inner img{
+     transition: all 1.5s ease;
+ }
+
+ .displayCard .inner:hover img{
+     transform: scale(1.5);
+ }
